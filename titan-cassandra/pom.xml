@@ -10,7 +10,7 @@
     <name>Titan-Cassandra: Distributed Graph Database</name>
     <url>http://thinkaurelius.github.com/titan/</url>
     <properties>
-        <astyanax.version>1.56.48</astyanax.version>
+        <astyanax.version>2.1.0</astyanax.version>
         <jamm.version>0.2.5</jamm.version>
         <jamm.group>com.github.stephenc</jamm.group>
         <dependency.plugin.version>2.8</dependency.plugin.version>
@@ -222,7 +222,7 @@
                             <exclude>
                                 <exclude>**/*</exclude>
                             </exclude>
-                            <parallel />
+                            <parallel/>
                             <reuseForks>false</reuseForks>
                             <threadCount>1</threadCount>
                             <perCoreThreadCount>false</perCoreThreadCount>
@@ -238,7 +238,7 @@
                         <configuration>
                             <argLine>${default.test.jvm.opts} -Dtest.cassandra.confdir=${project.build.directory}/cassandra/conf/localhost-bop -Dtest.cassandra.datadir=${project.build.directory}/cassandra/data/localhost-bop</argLine>
                             <excludedGroups>${test.excluded.groups},com.thinkaurelius.titan.testcategory.UnorderedKeyStoreTests,com.thinkaurelius.titan.testcategory.SerialTests,com.thinkaurelius.titan.testcategory.CassandraSSLTests</excludedGroups>
-                            <groups />
+                            <groups/>
                             <forkCount>1</forkCount>
                             <reuseForks>true</reuseForks>
                             <parallel>classes</parallel>
@@ -257,7 +257,7 @@
                         <configuration>
                             <argLine>${default.test.jvm.opts} -Dtest.cassandra.confdir=${project.build.directory}/cassandra/conf/localhost-rp -Dtest.cassandra.datadir=${project.build.directory}/cassandra/data/localhost-rp</argLine>
                             <excludedGroups>${test.excluded.groups},com.thinkaurelius.titan.testcategory.OrderedKeyStoreTests,com.thinkaurelius.titan.testcategory.SerialTests,com.thinkaurelius.titan.testcategory.CassandraSSLTests</excludedGroups>
-                            <groups />
+                            <groups/>
                             <forkCount>1</forkCount>
                             <reuseForks>true</reuseForks>
                             <parallel>classes</parallel>
@@ -275,7 +275,7 @@
                         <phase>test</phase>
                         <configuration>
                             <argLine>${default.test.jvm.opts} -Dtest.cassandra.confdir=${project.build.directory}/cassandra/conf/localhost-murmur-ssl -Dtest.cassandra.datadir=${project.build.directory}/cassandra/data/localhost-murmur-ssl</argLine>
-                            <excludedGroups />
+                            <excludedGroups/>
                             <groups>com.thinkaurelius.titan.testcategory.CassandraSSLTests</groups>
                             <forkCount>1</forkCount>
                             <reuseForks>true</reuseForks>
@@ -294,7 +294,7 @@
                         <phase>test</phase>
                         <configuration>
                             <argLine>${default.test.jvm.opts} -Dtest.cassandra.confdir=${project.build.directory}/cassandra/conf/localhost-rp -Dtest.cassandra.datadir=${project.build.directory}/cassandra/data/localhost-rp</argLine>
-                            <excludedGroups />
+                            <excludedGroups/>
                             <groups>com.thinkaurelius.titan.testcategory.SerialTests</groups>
                             <forkCount>1</forkCount>
                             <reuseForks>false</reuseForks>

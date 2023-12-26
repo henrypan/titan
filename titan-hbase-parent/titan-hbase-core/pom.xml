@@ -115,7 +115,7 @@
             </activation>
             
             <properties>
-                <hbase.version>${hbase096.version.base}-hadoop1</hbase.version>
+                <hbase.version>2.5.7</hbase.version>
                 <hadoop.version>${hadoop1.version}</hadoop.version>
             </properties>
 
@@ -181,7 +181,7 @@
             </activation>
 
             <properties>
-                <hbase.version>${hbase096.version.base}-hadoop2</hbase.version>
+                <hbase.version>2.5.7</hbase.version>
                 <hadoop.version>${hadoop2.version}</hadoop.version>
             </properties>
 

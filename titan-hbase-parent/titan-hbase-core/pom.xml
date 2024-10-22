@@ -116,7 +116,7 @@
             
             <properties>
                 <hbase.version>${hbase096.version.base}-hadoop1</hbase.version>
-                <hadoop.version>${hadoop1.version}</hadoop.version>
+                <hadoop.version>3.4.1</hadoop.version>
             </properties>
 
             <build>
@@ -182,7 +182,7 @@
 
             <properties>
                 <hbase.version>${hbase096.version.base}-hadoop2</hbase.version>
-                <hadoop.version>${hadoop2.version}</hadoop.version>
+                <hadoop.version>3.4.1</hadoop.version>
             </properties>
 
             <dependencies>
